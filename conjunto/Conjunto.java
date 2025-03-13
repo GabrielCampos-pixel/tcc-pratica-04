@@ -17,45 +17,34 @@ public class Conjunto implements ConjuntoInterface {
         return cont;
     }
 
-    public void imprimirElementos(double[]vet, int cont) {
+    public void imprimirElementos(double[] vet, int cont) {
         for(int i = 0; i < cont; i++)
            System.out.print(vet[i] + "  ");
         System.out.println();  
     }
 
-    public int lerElementos() {
+    public int uniao(double[] vet1, double[] vet2) {
         int cont = 0;
         return cont;
-
     }
-    public void imprimirElementos(double [] vet, int cont){
+
+    public int intersecao(double[] vet1, double[] vet2) {
         int cont = 0;
         return cont;
-
     }
-    public int uniao(double[] vet1, double[] vet2){
+
+    public int diferenca(double[] vet1, double[] vet2) {
         int cont = 0;
         return cont;
-
     }
-    public int intercecao(double[] vet1, double[] vet2){
+
+    public int produtoCartesiano(double[] vet1, double[] vet2) {
         int cont = 0;
         return cont;
-
     }
-    public int diferenca(double[] vet1, double[] vet2){
+
+    public int conjuntoDasPartes(double[] vet) {
         int cont = 0;
         return cont;
-
-    }
-    public int produtoCartesiano(double[] vet1, double[] vet2){
-        int cont = 0;
-        return cont;
-
-    }
-    public int conjuntoDasPartes(double[] vet){
-        int cont = 0;
-        return cont;
-
     }
 }

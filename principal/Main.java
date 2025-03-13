@@ -8,6 +8,7 @@ public class Main {
         double[] B = new double[10];
 
         Conjunto conjunto = new Conjunto();
+        
         System.out.println("Leitura dos elementos do conjunto A");
         cardinalidadeA = conjunto.lerElementos(A);
         System.out.println("Leitura dos elementos do conjunto B");
