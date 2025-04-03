@@ -1,3 +1,4 @@
+package principal;
 import conjunto.Conjunto;
 
 public class Main {
@@ -21,21 +22,21 @@ public class Main {
         conjunto.imprimirElementos(B, cardinalidadeB);
         
         System.out.println("União dos elementos do cojunto A e do conjunto B:");
-        conjunto.uniao(A, B, cardinalidadeA, cardinalidadeB);
+        conjunto.uniao(A, B);
 
-        System.out.println("Interseção dos elementos do conjunto A e do conjunto B:").
-        conjunto.intersecao(A, B, cardinalidadeA, cardinalidadeB);
+        System.out.println("Interseção dos elementos do conjunto A e do conjunto B:");
+        conjunto.intersecao(A, B);
 
         System.out.println("Difença dos elementos do conjunto A e do conjunto B:");
-        conjunto.diferenca(A, B, cardinalidadeA,cardinalidadeB);
+        conjunto.diferenca(A, B);
 
         System.out.println("Produto cartesiano do conjunto A e do conjunto B:");
-        conjunto.produtoCartesiano(A, B, cardinalidadeA, cardinalidadeB);
+        conjunto.produtoCartesiano(A, B);
 
         System.out.println("Conjunto das Partes do conjunto A:");
-        conjunto.conjuntoDasPartes(A, cardinalidadeA);
+        conjunto.conjuntoDasPartes(A);
 
         System.out.println("Conjunto das Partes do conjunto B:");
-        conjunto.conjuntoDasPartes(B, cardinalidadeB);
+        conjunto.conjuntoDasPartes(B);
     }
 }

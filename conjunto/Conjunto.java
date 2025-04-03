@@ -17,6 +17,12 @@ public class Conjunto implements ConjuntoInterface {
         return cont;
     }
 
+    public int lerElementos() {
+        System.out.println("Lendo elementos");
+        int cont = 0;
+        return cont;
+    }
+
     public void imprimirElementos(double[] vet, int cont) {
         for(int i = 0; i < cont; i++)
            System.out.print(vet[i] + "  ");
